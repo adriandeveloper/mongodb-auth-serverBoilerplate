@@ -1,4 +1,4 @@
-#Secure Auth Server with MongoDB Backend Boilerplate
+# Secure Auth Server with MongoDB Backend Boilerplate
 
 Starting boilerplate for a secure auth server for web and mobile projects.
 
@@ -66,7 +66,9 @@ The fastest way to verify that the initial setup is good to go is to open up pos
 
 Once signin has been successful, you will be given an JWT Token.
 
-![sign-up](https://imgur.com/3pw46dr)
+<p align="center">
+  <img src="https://i.imgur.com/3pw46dr.png">
+</p>
 
 Due note that if you try to sign up again with the same email password, you will get the following error:
 
@@ -79,7 +81,9 @@ Due note that if you try to sign up again with the same email password, you will
 ### User sign in
 To verify signin, create a post request to ```localhost:3090/signin``` and use the same email and password you provided. You will recieve a local JWT Token
 
-![sign-in](https://imgur.com/WAraQix)
+<p align="center">
+  <img src="https://i.imgur.com/WAraQix.png">
+</p>
 
 ### Testing
 The root route is protected. This is thanks to adding ```requireAuth``` to the  get request.
@@ -94,7 +98,9 @@ You will need to copy your token that you have generated with your signin and ad
 
 EX:
 
-![sign-in-success](https://imgur.com/gZFQTdG)
+<p align="center">
+  <img src="https://i.imgur.com/gZFQTdG.png">
+</p>
 
 
 
