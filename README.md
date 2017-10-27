@@ -1,6 +1,8 @@
 # Secure Auth Server with MongoDB Backend Boilerplate
 
-Starting boilerplate for a secure auth server for web and mobile projects.
+Starting boilerplate for a secure auth server for web and mobile projects. 
+
+The authentication method this boilerplate uses are **email and password**.
 
 The backend this boilerplate written for is Mongodb. 
 
